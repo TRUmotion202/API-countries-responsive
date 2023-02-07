@@ -1,0 +1,35 @@
+:root {
+  --Dark-Blue: hsl(209, 23%, 22%);
+  --Very-Dark-Blue: hsl(207, 26%, 17%);
+  --Dark-Gray: hsl(0, 0%, 52%);
+  --Very-Light-Gray: hsl(0, 8%, 95%);
+  --White: hsl(0, 0%, 100%);
+  --font: "Nunito Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}

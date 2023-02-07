@@ -1,0 +1,30 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+  transition: background 300ms ease;
+}
+
+#dark .navBar {
+  background-color: var(--Dark-Blue)
+}
+
+#light .navBar {
+  background-color: var(--White)
+}
+.navBar__theme {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  cursor: pointer;
+}
+
+.navBar__title {
+  font-size: 20px;
+}
+
+.navBar__themetext {
+  margin: 0;
+}
+
